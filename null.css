@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.linfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px;
+}
+
+.linfo h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.linfo h2 {
+    font-size: 24px;
+    color: #a8a8a8;
+    font-weight: 300;
+}
+
+.rinfo {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.rinfo img {
+    height: 100%;
+    width: auto;
+}
+
+.models {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+
+.model-card {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 10px 30px;
+    text-align: center;
+    min-height: 400px;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.model-card h2 {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.model-card img {
+    display: block;
+    max-height: 300px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 15px;
+}
+
+/* Remove these since they're not being used in your HTML */
+.pro h2 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.pro img {
+    display: block;
+    max-height: 300px;
+    width: auto;
+    margin: 0 auto;
+}
+
+.model-card button {
+    background-color: rgb(91, 91, 250);
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: .2s ease;
+    color: white;
+}
+
+.model-card button:hover {
+    transform: scale(1.2);
+}

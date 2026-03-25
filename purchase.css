@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    min-height: 80vh;
+}
+
+.textnlogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.textnlogo a {
+    font-size: 20px;
+    color: white;
+}
+
+.textnlogo a:hover {
+    color: rgba(255, 255, 255, 0.89);
+    scale: 1.1;
+}

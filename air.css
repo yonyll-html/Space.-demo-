@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 60px;
+}
+
+.linfo {
+    display: flex;
+    flex-direction: column;
+    padding-top: 17px;
+}
+
+.linfo h1 {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.linfo a {
+    color: white;
+}
+
+.rinfo {
+    display: flex;
+    height: 100px;
+    align-items: center;
+}
+
+.rinfo img {
+    height: 120px; 
+    width: auto;
+}
+
+.productl h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.productl img {
+    height: 500px; 
+    width: auto;
+    margin-left: -100px; 
+}
+
+.productl {
+    position: sticky;
+    top: -70px;
+    align-self: flex-start;
+}
+
+.productr {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 20px;
+    top: -550px;
+    position: relative;
+}
+
+.productr .modelbutton {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: scale 0.2s ease; 
+    border-radius: 10px;
+    text-align: end;
+}
+
+.modelbutton:hover {
+    scale: 1.1; 
+}
+
+#color1 {
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+#color1:hover {
+    background-color: rgb(135, 206, 235);
+    color: rgb(255, 255, 255);
+}
+
+#color2:hover {
+    background-color: rgba(254, 247, 218);
+    color: rgb(0, 0, 0);
+}
+
+#color3:hover {
+    background-color: rgb(235, 230, 207);
+    color: rgb(0, 0, 0);
+    border: 2px solid black;
+}
+
+#color4:hover {
+    background-color: rgba(53, 53, 53);
+    color: white;
+    border: 2px solid black;
+}
+
+.modelbutton.active {
+    color: white;
+    border-color: #007AFF;
+}
+
+#color1.active {
+    background-color: rgb(135, 206, 235); /* Sky Blue */
+    color: white;
+    border: 2px solid black;
+}
+
+#color2.active {
+    background-color: rgb(254, 247, 218); /* Light Gold */
+    color: black;
+    border: 2px solid black;
+}
+
+#color3.active {
+    background-color: rgb(235, 230, 207); /* Cloud Gold */
+    color: black;
+    border: 2px solid black;
+}
+
+#color4.active {
+    background-color: rgb(53, 53, 53); /* Space Black */
+    color: white;
+    border: 2px solid black;
+}
+
+#17pro.active,
+#17promax.active,
+#256.active,
+#512.active,
+#1tb.active,
+#2tb.active,
+#Purchase.active,  
+#Finance.active { 
+    background-color: #007AFF;
+    color: white;
+    border-color: #007AFF;
+}
+
+#Purchase, #Finance {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: scale 0.2s ease; 
+    border-radius: 10px;
+    text-align: center;
+    width: 80%;
+    margin: 10px 0;
+}
+
+#Purchase:hover, #Finance:hover {
+    scale: 1.1; 
+}
+
+#Purchase.active, #Finance.active {  
+    background-color: #007AFF;
+    color: white;
+    border-color: #007AFF;
+}
+
+.modelbutton {
+    transition: all 0.3s ease;
+}
+
+.information2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    margin-top: -30%;
+}
+
+.inthebox {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.health-safety {
+    height: 300px;
+    width: 600px;
+    border: white 2px solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.purchase {
+    border: #fff 2px solid;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.purchase h4 {
+    text-align: center;
+    padding-top: 0;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#Purchase, #Finance {
+    background: none;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: scale 0.2s ease; 
+    border-radius: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.health-safety h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+.health-safety p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ccc;
+}
